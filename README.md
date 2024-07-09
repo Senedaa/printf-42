@@ -38,7 +38,7 @@ You will find more details in the [subject of the project](https://github.com/Se
 - [Formats](#formats)
   - [va_list](#va_list)
   - [Returning an integer](#returning-an-integer)
-- [Auxiliary functions](#auxiliary-functions)
+
 
 ### <a name="structure">Structure</a>
 The main obstacles during the execution of the project have been handling a variable number of parameters and the function `ft_printf()` returning an `int`.
@@ -65,8 +65,6 @@ The different types of variables are printed using a function for each of the fo
 * [__`ft_print_putptr()`__](https://github.com/Senedaa/printf-42/blob/main/ft_print_putptr.c) prints a pointer in hexadecimal format (lowercase), preceded by the string "0x".
 * [__`ft_print_unsigned()`__](https://github.com/Senedaa/printf-42/blob/main/ft_print_unsigned.c) prints an `unsigned int` type variable.
 
-### <a name="auxiliary-functions">Auxiliary functions</a>
-[`ft_aux_pf.c`](https://github.com/Senedaa/printf-42/blob/main/ft_aux_pf.c) contains all the auxiliary functions, specifically the `ft_atoi_base` function, [made during the August pool](https://github.com/Senedaa/School42-Piscina-agosto-2022). This function is mainly used to change the base in functions that handle hexadecimal numbers and `unsigned int` type variables.
 
 ## <a name="requirements">Requirements</a>
 The functions are written in __C language__ and need the `gcc` compiler, with `<stdlib.h>`, `<stdarg.h>`, and `<unistd.h>` standard libraries to run.
@@ -97,4 +95,4 @@ To use this project in your code, simply include this header:
 
 ## <a name="testing">Testing</a>
 This function has been tested with [Francinette](https://github.com/xicodomingues/francinette).
-```
+
